@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body {
+   
+        font-family: "Gabarito", serif;
+        font-optical-sizing: auto;
+        font-weight: 400;
+        font-style: normal;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 5px;
+}
+.navbar__s1 img{
+    width: 200px;
+}
+.navbar__s2 {
+    display: flex;
+    gap: 40px;
+}
+.navbar__s2 p{
+    padding: 10px;
+}
+.navbar__s2 p:hover{
+    background-color: gainsboro;
+    border-radius: 20px;
+    cursor: pointer;
+
+}
+.navbar__s3__emoji {
+    display: flex;
+    gap: 20px;
+    align-items: center;
+}
+.navbar__s3__emoji button {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 20px;
+}
+.navbar__s3__emoji button:hover{
+    background-color: white;
+    color: black;
+    cursor: pointer;
+}
+/* Contents */
+.center-contents__title {
+    text-align: center;
+    margin: 10px;
+    font-size: 25px;
+    font-weight: bold;
+}
+.center-contents__emojis{
+    display: flex;
+    gap: 40px;
+    justify-content: center;
+    margin-top: 60px;
+}
+.center-contents__emojis__s1 {
+    display: flex;
+    gap: 10px;
+    font-size: 20px;
+}
+.center-contents__emojis__s1:hover {
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+.searchbar {
+    display: flex;
+    justify-content: center;
+    margin-top: 30px;
+}
+.searchbar__part-one {
+    box-shadow: 5px 0px 10px 10px rgb(230, 226, 226);
+    width: 60%;
+    padding: 10px;
+    border-radius: 30px;
+}
+.searchbar__s1 input{
+    width: 80%;
+    border: none;
+}
+.searchbar__s1 input:focus {
+    outline: none;
+}
+.searchbar__s1 button {
+    padding: 10px;
+    background-color: #84E9BD;
+    border: none;
+    border-radius: 20px;
+}
+.flex-image{
+    display: flex;
+    justify-content: center;
+}
+.flex-image__s1{
+    background: linear-gradient(to bottom left, #cc99ff 0%, #d4def7 100%);
+    width: 85%;
+    height: 400px;
+    margin-top: 50px;
+    border-radius: 10px;
+    margin: 50px;
+    position: relative;
+    color: #52327C;
+}
+.flex-image__s1 img {
+    width: 87%;
+    position: absolute;
+    right: 0;
+}
+.flex-image__s1 h1{
+    font-size: 64px;
+}
+.flex-image__inside-text {
+    width: 600px;
+    padding: 40px;
+    margin-left: 30px;
+}
+.flex-image__s1 p {
+    font-size: 32px;
+}
+.flex-image__s1 button {
+    background-color: #52327C;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 20px;
+}
+.flex-image__s1 button:hover {
+    cursor: pointer;
+}
+
+
+
+
+
